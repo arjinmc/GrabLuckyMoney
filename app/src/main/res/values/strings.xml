@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">红兔崽</string>
+
+    <string name="fetch_luncky_money">抢红包</string>
+    <string name="fetch_service_on">抢红包服务已开启</string>
+    <string name="fetch_service_off">抢红包服务未开启</string>
+</resources>

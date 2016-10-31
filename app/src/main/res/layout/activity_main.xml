@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.arjinmc.redbunny.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择要抢的红包" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/cb_wechat"
+        style="@style/checkbox"
+        android:text="微信"/>
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/cb_qq"
+        style="@style/checkbox"
+        android:text="QQ"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textColor="#f00"
+        android:text="@string/fetch_service_off"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_setting_accessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置辅助服务"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="tips:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击设置辅助服务按钮，找到服务->红兔崽，打开开关即可。请保持手机不要锁屏,不要关闭微信或者QQ的通知提示，由于挂机抢红包耗电会比较大，将手机亮度调整到最低。\n如有疑问请email到arjinmc@hotmail.com"/>
+
+</LinearLayout>
