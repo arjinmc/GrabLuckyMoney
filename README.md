@@ -1,5 +1,5 @@
 # GrabLuckyMoney
-Grab luck money for Wechat and QQ,call qionghongbao in Chinese.微信QQ抢红包
+Grab luck money for Wechat and QQ,call qianghongbao in Chinese.微信QQ抢红包
 
 ##使用前注意事项
 1.不能关闭微信，QQ的通知。  
